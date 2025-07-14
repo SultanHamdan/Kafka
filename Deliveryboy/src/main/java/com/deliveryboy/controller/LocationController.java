@@ -25,3 +25,4 @@ public class LocationController {
     }
 
 }
+// Replicates the Location Coordinates.
