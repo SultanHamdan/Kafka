@@ -14,9 +14,10 @@ public class KafkaConfig {
 
         return TopicBuilder
                 .name(AppConstants.LOCATION_TOPIC_NAME)
-//                .partitions()
-//                .replicas()
+//                .partitions() //How many Partitions within a Topic.
+//                .replicas() //How many will have the copy of the data.
                 .build();
     }
 
 }
+// Here the TopicBuilder class is a utility provided by Spring Kafka to make it easier to define and create Kafka topics.
