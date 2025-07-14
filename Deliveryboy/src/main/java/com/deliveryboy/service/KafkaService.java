@@ -18,3 +18,5 @@ public class KafkaService {
     }
 
 }
+// This service is responsible for sending data to a Kafka topic using Spring Kafka’s KafkaTemplate.
+// Sends data in the Key and Value type.
